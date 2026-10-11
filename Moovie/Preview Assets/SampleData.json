@@ -1,0 +1,1547 @@
+{
+  "movies": [
+    {
+      "adult": false,
+      "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 969681,
+      "title": "Человек-паук: Новый день",
+      "original_language": "en",
+      "original_title": "Spider-Man: Brand New Day",
+      "overview": "Одинокий и повзрослевший Питер Паркер полностью посвящает себя борьбе с преступностью в Нью-Йорке, поскольку 4 года назад после заклинания Доктора Стрэнджа мир и все близкие забыли его. Но с ростом угроз и нагрузки на Человека-паука, его способности претерпевают странные изменения, способные поставить под угрозу его существование. Тем временем в городе случается новая цепочка преступлений, которая приводит к появлению одного из самых опасных противников в жизни Питера.",
+      "popularity": 719.5221,
+      "poster_path": "/pK8CH9JxrgX2ZIq3WclTwnX0cCL.jpg",
+      "release_date": "2026-07-29",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.111,
+      "vote_count": 3586
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "genre_ids": [
+        27,
+        878,
+        12
+      ],
+      "id": 1423191,
+      "title": "Обитель зла",
+      "original_language": "en",
+      "original_title": "Resident Evil",
+      "overview": "Медицинский курьер Брайан отправляется выполнить обычную доставку, но внезапно оказывается в центре кошмарной вспышки, охватившей Раккун-Сити. Город погружается в хаос, а на улицах появляются заражённые люди и чудовищные существа. Оказавшись один на один с надвигающейся угрозой, Брайан вынужден искать путь через охваченный катастрофой город, используя всё, что может помочь ему выжить. С каждой минутой ситуация становится всё опаснее, превращая простую доставку в отчаянную борьбу за жизнь.",
+      "popularity": 384.9808,
+      "poster_path": "/vLl5tcuabARqGBefccSsYAYXdgA.jpg",
+      "release_date": "2026-09-16",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 762
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "genre_ids": [
+        12,
+        28,
+        14
+      ],
+      "id": 1368337,
+      "title": "Одиссея",
+      "original_language": "en",
+      "original_title": "The Odyssey",
+      "overview": "После Троянской войны Одиссей, царь Итаки, во главе небольшого войска возвращается домой к своей жене Пенелопе. На своём пути Одиссей сталкивается со множеством испытаний, встречает циклопов, сирен и великанов-людоедов.",
+      "popularity": 300.6444,
+      "poster_path": "/n7NR7SH7CyiiF70yN96r3d1jWr0.jpg",
+      "release_date": "2026-07-15",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 4028
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 1377237,
+      "title": "Курьер",
+      "original_language": "en",
+      "original_title": "Runner",
+      "overview": "У Хэнка Мэлоуна, элитного курьера, есть 3 часа, чтобы доставить печень и спасти 7-летнюю девочку, которой требуется срочная пересадка. Простая задача превращается в смертельное испытание, когда глава известной преступной группировки решает любой ценой завладеть органом.",
+      "popularity": 284.8046,
+      "poster_path": "/vnrrZCe2sDMdEY7xyGSZMpSsZyG.jpg",
+      "release_date": "2026-09-07",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 394
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+      "genre_ids": [
+        35,
+        12,
+        10751
+      ],
+      "id": 1204680,
+      "title": "Хитрый койот",
+      "original_language": "en",
+      "original_title": "Coyote vs. Acme",
+      "overview": "Легендарный Хитрый Койот оказывается среди людей. Устав быть вечной жертвой неудачных изобретений корпорации «АКМЕ», он нанимает адвоката и подает на компанию в суд. Теперь вместо погони за Дорожным Бегуном его ждет судебная битва с безжалостным корпоративным юристом Бадди Крейном, для которого прибыль важнее справедливости.",
+      "popularity": 249.797,
+      "poster_path": "/gwCwmTk2EfDccd4RtIPsWEwzd1r.jpg",
+      "release_date": "2026-08-17",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 682
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 1228834,
+      "title": "Операция «Возмездие»",
+      "original_language": "en",
+      "original_title": "The Fix",
+      "overview": "Разочарованные окончанием войны в Афганистане, группа опальных, потрёпанных войной бывших оперативников ЦРУ направляется в Тегеран, чтобы сорвать большой куш, который навсегда изменит их жизнь.",
+      "popularity": 286.8743,
+      "poster_path": "/1LPzBhF0J0ObYxvMRxyo223UMXO.jpg",
+      "release_date": "2026-09-10",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 49
+    }
+  ],
+  "movieDetails": [
+      {
+        "adult": false,
+        "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
+        "belongs_to_collection": {
+          "id": 531241,
+          "name": "Человек-паук [КВМ] (Коллекция)",
+          "poster_path": "/f4xtew0yQRiH9K46LRD848z8R4f.jpg",
+          "backdrop_path": "/AvnqpRwlEaYNVL6wzC4RN94EdSd.jpg"
+        },
+        "budget": 225000000,
+        "genres": [
+          {
+            "id": 878,
+            "name": "фантастика"
+          },
+          {
+            "id": 28,
+            "name": "боевик"
+          },
+          {
+            "id": 12,
+            "name": "приключения"
+          }
+        ],
+        "homepage": "",
+        "id": 969681,
+        "imdb_id": "tt22084616",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Spider-Man: Brand New Day",
+        "overview": "Одинокий и повзрослевший Питер Паркер полностью посвящает себя борьбе с преступностью в Нью-Йорке, поскольку 4 года назад после заклинания Доктора Стрэнджа мир и все близкие забыли его. Но с ростом угроз и нагрузки на Человека-паука, его способности претерпевают странные изменения, способные поставить под угрозу его существование. Тем временем в городе случается новая цепочка преступлений, которая приводит к появлению одного из самых опасных противников в жизни Питера.",
+        "popularity": 719.5221,
+        "poster_path": "/pK8CH9JxrgX2ZIq3WclTwnX0cCL.jpg",
+        "production_companies": [
+          {
+            "id": 420,
+            "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+            "name": "Marvel Studios",
+            "origin_country": "US"
+          },
+          {
+            "id": 5,
+            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+            "name": "Columbia Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 84041,
+            "logo_path": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+            "name": "Pascal Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 22213,
+            "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+            "name": "TSG Entertainment",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2026-07-29",
+        "revenue": 2505477000,
+        "runtime": 145,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "«Начинается новый день»",
+        "title": "Человек-паук: Новый день",
+        "video": false,
+        "vote_average": 8.111,
+        "vote_count": 3586
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+        "belongs_to_collection": null,
+        "budget": 75000000,
+        "genres": [
+          {
+            "id": 27,
+            "name": "ужасы"
+          },
+          {
+            "id": 878,
+            "name": "фантастика"
+          },
+          {
+            "id": 12,
+            "name": "приключения"
+          }
+        ],
+        "homepage": "",
+        "id": 1423191,
+        "imdb_id": "tt35538033",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Resident Evil",
+        "overview": "Медицинский курьер Брайан отправляется выполнить обычную доставку, но внезапно оказывается в центре кошмарной вспышки, охватившей Раккун-Сити. Город погружается в хаос, а на улицах появляются заражённые люди и чудовищные существа. Оказавшись один на один с надвигающейся угрозой, Брайан вынужден искать путь через охваченный катастрофой город, используя всё, что может помочь ему выжить. С каждой минутой ситуация становится всё опаснее, превращая простую доставку в отчаянную борьбу за жизнь.",
+        "popularity": 704.1066,
+        "poster_path": "/vLl5tcuabARqGBefccSsYAYXdgA.jpg",
+        "production_companies": [
+          {
+            "id": 47,
+            "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+            "name": "Constantin Film",
+            "origin_country": "DE"
+          },
+          {
+            "id": 240675,
+            "logo_path": "/qBN0r3EbLfDwANllIHmQtSRTBaP.png",
+            "name": "Subconscious",
+            "origin_country": "US"
+          },
+          {
+            "id": 829,
+            "logo_path": "/iJo9zP5QCKyBsmKSOcvXd6UDNih.png",
+            "name": "Vertigo Entertainment",
+            "origin_country": "US"
+          },
+          {
+            "id": 342,
+            "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
+            "name": "Davis Films",
+            "origin_country": "FR"
+          },
+          {
+            "id": 5,
+            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+            "name": "Columbia Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 125281,
+            "logo_path": "/3hV8pyxzAJgEjiSYVv1WZ0ZYayp.png",
+            "name": "PlayStation Productions",
+            "origin_country": "US"
+          },
+          {
+            "id": 559,
+            "logo_path": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+            "name": "TriStar Pictures",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          },
+          {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+          },
+          {
+            "iso_3166_1": "FR",
+            "name": "France"
+          }
+        ],
+        "release_date": "2026-09-16",
+        "revenue": 245400000,
+        "runtime": 95,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "«Новая эра зла»",
+        "title": "Обитель зла",
+        "video": false,
+        "vote_average": 7.3,
+        "vote_count": 859
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+        "belongs_to_collection": null,
+        "budget": 250000000,
+        "genres": [
+          {
+            "id": 12,
+            "name": "приключения"
+          },
+          {
+            "id": 28,
+            "name": "боевик"
+          },
+          {
+            "id": 14,
+            "name": "фэнтези"
+          }
+        ],
+        "homepage": "",
+        "id": 1368337,
+        "imdb_id": "tt33764258",
+        "origin_country": [
+          "GB",
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "The Odyssey",
+        "overview": "После Троянской войны Одиссей, царь Итаки, во главе небольшого войска возвращается домой к своей жене Пенелопе. На своём пути Одиссей сталкивается со множеством испытаний, встречает циклопов, сирен и великанов-людоедов.",
+        "popularity": 389.5944,
+        "poster_path": "/n7NR7SH7CyiiF70yN96r3d1jWr0.jpg",
+        "production_companies": [
+          {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 9996,
+            "logo_path": "/3tvBqYsBhxWeHlu62SIJ1el93O7.png",
+            "name": "Syncopy",
+            "origin_country": "GB"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+          },
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2026-07-15",
+        "revenue": 1772582567,
+        "runtime": 173,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "«Бросьте вызов богам»",
+        "title": "Одиссея",
+        "video": false,
+        "vote_average": 8.013,
+        "vote_count": 4090
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
+        "belongs_to_collection": null,
+        "budget": 0,
+        "genres": [
+          {
+            "id": 28,
+            "name": "боевик"
+          },
+          {
+            "id": 35,
+            "name": "комедия"
+          }
+        ],
+        "homepage": "",
+        "id": 1377237,
+        "imdb_id": "tt31349844",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Runner",
+        "overview": "У Хэнка Мэлоуна, элитного курьера, есть 3 часа, чтобы доставить печень и спасти 7-летнюю девочку, которой требуется срочная пересадка. Простая задача превращается в смертельное испытание, когда глава известной преступной группировки решает любой ценой завладеть органом.",
+        "popularity": 253.2406,
+        "poster_path": "/vnrrZCe2sDMdEY7xyGSZMpSsZyG.jpg",
+        "production_companies": [
+          {
+            "id": 8000,
+            "logo_path": "/f8NwLg72BByt3eav7lX1lcJfe60.png",
+            "name": "Broken Road Productions",
+            "origin_country": "US"
+          },
+          {
+            "id": 72954,
+            "logo_path": null,
+            "name": "AllyCat Entertainment",
+            "origin_country": "US"
+          },
+          {
+            "id": 110723,
+            "logo_path": "/27Od860h9Xc7gDS3Pph6yRlUyBI.png",
+            "name": "Nickel City Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 221397,
+            "logo_path": "/aj3EiCWM5jKxDJGZh34KV6L9HcE.png",
+            "name": "A Higher Standard",
+            "origin_country": "US"
+          },
+          {
+            "id": 219277,
+            "logo_path": null,
+            "name": "G2 Dispatch",
+            "origin_country": "AU"
+          },
+          {
+            "id": 309655,
+            "logo_path": "/9IYQkwgJlOzBiWANI6krDsE3QvR.png",
+            "name": "International Media Funds Management",
+            "origin_country": "AU"
+          },
+          {
+            "id": 209819,
+            "logo_path": "/lvqsgXsWHX4r5jBOuvbNCpZCnBf.png",
+            "name": "Bright White Light",
+            "origin_country": "GB"
+          },
+          {
+            "id": 223271,
+            "logo_path": "/2Rc6Dvg3tpIfDzgQE6ycWxNj0kT.png",
+            "name": "2521 Entertainment",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          },
+          {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+          },
+          {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+          }
+        ],
+        "release_date": "2026-09-07",
+        "revenue": 6432956,
+        "runtime": 97,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "",
+        "title": "Курьер",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 472
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg",
+        "belongs_to_collection": null,
+        "budget": 72000000,
+        "genres": [
+          {
+            "id": 35,
+            "name": "комедия"
+          },
+          {
+            "id": 12,
+            "name": "приключения"
+          },
+          {
+            "id": 10751,
+            "name": "семейный"
+          }
+        ],
+        "homepage": "",
+        "id": 1204680,
+        "imdb_id": "tt1756855",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Coyote vs. Acme",
+        "overview": "Легендарный Хитрый Койот оказывается среди людей. Устав быть вечной жертвой неудачных изобретений корпорации «АКМЕ», он нанимает адвоката и подает на компанию в суд. Теперь вместо погони за Дорожным Бегуном его ждет судебная битва с безжалостным корпоративным юристом Бадди Крейном, для которого прибыль важнее справедливости.",
+        "popularity": 171.3351,
+        "poster_path": "/gwCwmTk2EfDccd4RtIPsWEwzd1r.jpg",
+        "production_companies": [
+          {
+            "id": 94218,
+            "logo_path": "/kxuhS8wyKtVprOn5nckdHyNuSg1.png",
+            "name": "Troll Court Entertainment",
+            "origin_country": "US"
+          },
+          {
+            "id": 296158,
+            "logo_path": null,
+            "name": "Keylight Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 25120,
+            "logo_path": "/6RLMWBcGF2COzjjBORPUy705yF7.png",
+            "name": "Warner Animation Group",
+            "origin_country": "US"
+          },
+          {
+            "id": 174,
+            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2026-08-17",
+        "revenue": 88043208,
+        "runtime": 101,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "Койот против АКМЕ",
+        "title": "Хитрый Койот",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 717
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg",
+        "belongs_to_collection": null,
+        "budget": 32000000,
+        "genres": [
+          {
+            "id": 28,
+            "name": "боевик"
+          },
+          {
+            "id": 53,
+            "name": "триллер"
+          }
+        ],
+        "homepage": "",
+        "id": 1228834,
+        "imdb_id": "tt9601292",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "The Fix",
+        "overview": "Разочарованные окончанием войны в Афганистане, группа опальных, потрёпанных войной бывших оперативников ЦРУ направляется в Тегеран, чтобы сорвать большой куш, который навсегда изменит их жизнь.",
+        "popularity": 276.9325,
+        "poster_path": "/1LPzBhF0J0ObYxvMRxyo223UMXO.jpg",
+        "production_companies": [
+          {
+            "id": 217982,
+            "logo_path": null,
+            "name": "Astral Future",
+            "origin_country": "US"
+          },
+          {
+            "id": 208153,
+            "logo_path": null,
+            "name": "Dreamtime Entertainment",
+            "origin_country": ""
+          },
+          {
+            "id": 124504,
+            "logo_path": "/2lNM3d3KUlDk3phoFpTkrIS8jKU.png",
+            "name": "Oakhurst Entertainment",
+            "origin_country": "US"
+          },
+          {
+            "id": 121204,
+            "logo_path": "/vbtvY4IxgUZk713rkmoTO4MHIac.png",
+            "name": "BondIt Media Capital",
+            "origin_country": "US"
+          },
+          {
+            "id": 198605,
+            "logo_path": null,
+            "name": "Latigo Films",
+            "origin_country": ""
+          },
+          {
+            "id": 2623,
+            "logo_path": "/7Bkm1yUF0y8x6jw8dHRfzS3B6dq.png",
+            "name": "Blue Rider Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 229487,
+            "logo_path": "/vF5HUjsJU0jFtlhpUdcodrECXBk.png",
+            "name": "Rabbits Black",
+            "origin_country": "US"
+          },
+          {
+            "id": 179981,
+            "logo_path": "/vbI6QgAC9s3BilQ5Oa7juyrf59N.png",
+            "name": "Thomasville Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 185588,
+            "logo_path": null,
+            "name": "Eyevox Entertainment",
+            "origin_country": ""
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2026-09-10",
+        "revenue": 0,
+        "runtime": 144,
+        "softcore": false,
+        "spoken_languages": [
+          {
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "العربية"
+          },
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "",
+        "title": "Операция «Возмездие»",
+        "video": false,
+        "vote_average": 6.795,
+        "vote_count": 56
+      }
+  ],
+  "movieCredits": [
+      {
+        "id": 969681,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1136406,
+            "known_for_department": "Acting",
+            "name": "Том Холланд",
+            "original_name": "Tom Holland",
+            "popularity": 20.6628,
+            "profile_path": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+            "cast_id": 4,
+            "character": "Peter Parker / Spider-Man",
+            "credit_id": "630cbd43ede1b00083c3badf",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1590797,
+            "known_for_department": "Acting",
+            "name": "Сэди Синк",
+            "original_name": "Sadie Sink",
+            "popularity": 16.2486,
+            "profile_path": "/92FddzBfK50XOUbtwjqHPraoGHy.jpg",
+            "cast_id": 30,
+            "character": "Jean Grey",
+            "credit_id": "67d1c1557761a3a68f60db95",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 2028037,
+            "known_for_department": "Acting",
+            "name": "Трамелл Тиллман",
+            "original_name": "Tramell Tillman",
+            "popularity": 3.3996,
+            "profile_path": "/bEA15zMnkcXlRroYjKrFUWiiK7y.jpg",
+            "cast_id": 72,
+            "character": "William 'Bill' Metzger",
+            "credit_id": "68a63cb7af8882c8675dd68b",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 505710,
+            "known_for_department": "Acting",
+            "name": "Зендея",
+            "original_name": "Zendaya",
+            "popularity": 17.0972,
+            "profile_path": "/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg",
+            "cast_id": 49,
+            "character": "MJ",
+            "credit_id": "6855e165f57c8fc6a7ae16ed",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1649152,
+            "known_for_department": "Acting",
+            "name": "Джейкоб Баталон",
+            "original_name": "Jacob Batalon",
+            "popularity": 6.8161,
+            "profile_path": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+            "cast_id": 50,
+            "character": "Ned Leeds",
+            "credit_id": "6855e1741460d776bcae16d3",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 10850,
+            "known_for_department": "Production",
+            "name": "Кевин Файги",
+            "original_name": "Kevin Feige",
+            "popularity": 3.1517,
+            "profile_path": "/kCBqXZ5PT5udYGEj2wfTSFbLMvT.jpg",
+            "credit_id": "628d559ed48cee2cbfca858a",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1425616,
+            "known_for_department": "Production",
+            "name": "Эми Паскаль",
+            "original_name": "Amy Pascal",
+            "popularity": 1.6012,
+            "profile_path": "/cZ526e4oPN1i44Q0BxYW8nOtrzR.jpg",
+            "credit_id": "65e51be61ad93b01860898a0",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 57027,
+            "known_for_department": "Production",
+            "name": "Луис Д'Эспозито",
+            "original_name": "Louis D'Esposito",
+            "popularity": 2.0283,
+            "profile_path": "/ewtzT2ZMIX2DNyGUUkHLn36fjgF.jpg",
+            "credit_id": "641a69d3688cd0010c5f38d8",
+            "department": "Production",
+            "job": "Executive Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 7624,
+            "known_for_department": "Writing",
+            "name": "Стэн Ли",
+            "original_name": "Stan Lee",
+            "popularity": 5.0504,
+            "profile_path": "/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg",
+            "credit_id": "6631a34a99d5c3012955e914",
+            "department": "Writing",
+            "job": "Comic Book"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1144604,
+            "known_for_department": "Directing",
+            "name": "Дестин Дэниел Креттон",
+            "original_name": "Destin Daniel Cretton",
+            "popularity": 4.2639,
+            "profile_path": "/wtA2EtkvCyxu4oWECzqAF7G8IZH.jpg",
+            "credit_id": "66df615d4ab203f9ceb97151",
+            "department": "Directing",
+            "job": "Director"
+          }
+        ]
+      },
+      {
+        "id": 1423191,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 148992,
+            "known_for_department": "Acting",
+            "name": "Остин Абрамс",
+            "original_name": "Austin Abrams",
+            "popularity": 7.9621,
+            "profile_path": "/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg",
+            "cast_id": 9,
+            "character": "Bryan",
+            "credit_id": "67e56043421eb8c331ba5197",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1294982,
+            "known_for_department": "Acting",
+            "name": "Пол Уолтер Хаузер",
+            "original_name": "Paul Walter Hauser",
+            "popularity": 3.8514,
+            "profile_path": "/hXjjbYg1Ah8mFf5ZcaakyXzDKMx.jpg",
+            "cast_id": 14,
+            "character": "Paul",
+            "credit_id": "68caeb292e10060fbfe3641f",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 3119545,
+            "known_for_department": "Acting",
+            "name": "Кали Рейс",
+            "original_name": "Kali Reis",
+            "popularity": 2.4925,
+            "profile_path": "/ruLDXHnKA4aHEQCcFGDAJ7bLTdt.jpg",
+            "cast_id": 19,
+            "character": "Maxine",
+            "credit_id": "68e045ab954a0976d0932205",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1838225,
+            "known_for_department": "Acting",
+            "name": "Зак Черри",
+            "original_name": "Zach Cherry",
+            "popularity": 2.7035,
+            "profile_path": "/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg",
+            "cast_id": 18,
+            "character": "Carl",
+            "credit_id": "68e0459e58abaa2a2eaa5ce0",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1169291,
+            "known_for_department": "Acting",
+            "name": "Джонно Уилсон",
+            "original_name": "Johnno Wilson",
+            "popularity": 1.8143,
+            "profile_path": "/eZtBoBE0F7Qb9ZyNpacMOQtmWnM.jpg",
+            "cast_id": 20,
+            "character": "Officer Wilson",
+            "credit_id": "68e04a1777d7e617f7ecb935",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 84833,
+            "known_for_department": "Acting",
+            "name": "Зак Креггер",
+            "original_name": "Zach Cregger",
+            "popularity": 4.1742,
+            "profile_path": "/bpFGFfWYIrZVK7WjwkVLwIoMKEb.jpg",
+            "credit_id": "6794204025d2980fb023abc3",
+            "department": "Directing",
+            "job": "Director"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 4017,
+            "known_for_department": "Production",
+            "name": "Роберт Кульцер",
+            "original_name": "Robert Kulzer",
+            "popularity": 0.8143,
+            "profile_path": "/tzQeiYsq9CJIzGSN2nsmez68TM6.jpg",
+            "credit_id": "67cb3aee05adfb9eb95b8074",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 21036,
+            "known_for_department": "Production",
+            "name": "Рой Ли",
+            "original_name": "Roy Lee",
+            "popularity": 1.1639,
+            "profile_path": "/7HGbsI8y3TGK8VQhN5rkaXtQnro.jpg",
+            "credit_id": "67cb3b048230b256f4f57992",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1123422,
+            "known_for_department": "Production",
+            "name": "Мири Юн",
+            "original_name": "Miri Yoon",
+            "popularity": 1.179,
+            "profile_path": "/kZZoOpkSvscG4YHAuUJaNGg3WTM.jpg",
+            "credit_id": "67cb3b0c05adfb9eb95b8084",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1098783,
+            "known_for_department": "Art",
+            "name": "Tom Hammock",
+            "original_name": "Tom Hammock",
+            "popularity": 0.6852,
+            "profile_path": "/mCB9AEVpATXxweHESls50ZXYOLo.jpg",
+            "credit_id": "682fc2c994584af5ae054261",
+            "department": "Art",
+            "job": "Production Design"
+          }
+        ]
+      },
+      {
+        "id": 1368337,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1892,
+            "known_for_department": "Acting",
+            "name": "Мэтт Деймон",
+            "original_name": "Matt Damon",
+            "popularity": 10.3822,
+            "profile_path": "/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg",
+            "cast_id": 1,
+            "character": "Odysseus",
+            "credit_id": "671d0f9e1ea33928297d5ff6",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1136406,
+            "known_for_department": "Acting",
+            "name": "Том Холланд",
+            "original_name": "Tom Holland",
+            "popularity": 20.6628,
+            "profile_path": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+            "cast_id": 2,
+            "character": "Telemachus",
+            "credit_id": "671d0fa6a4ac8a432c5c7209",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1813,
+            "known_for_department": "Acting",
+            "name": "Энн Хэтэуэй",
+            "original_name": "Anne Hathaway",
+            "popularity": 18.1146,
+            "profile_path": "/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg",
+            "cast_id": 8,
+            "character": "Penelope",
+            "credit_id": "672e6e76fc658fd33c2a292b",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 11288,
+            "known_for_department": "Acting",
+            "name": "Роберт Паттинсон",
+            "original_name": "Robert Pattinson",
+            "popularity": 10.3478,
+            "profile_path": "/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg",
+            "cast_id": 15,
+            "character": "Antinous",
+            "credit_id": "673e8130764da4251e876d9c",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1227717,
+            "known_for_department": "Acting",
+            "name": "Химеш Патель",
+            "original_name": "Himesh Patel",
+            "popularity": 3.201,
+            "profile_path": "/icqsXLmU0FxBGTv63kkA0GcrecO.jpg",
+            "cast_id": 109,
+            "character": "Eurylochus",
+            "credit_id": "6984cd90c0f61b819c6e7f3e",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 525,
+            "known_for_department": "Directing",
+            "name": "Кристофер Нолан",
+            "original_name": "Christopher Nolan",
+            "popularity": 9.1771,
+            "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+            "credit_id": "671d0fe427bd57d91f62cdda",
+            "department": "Directing",
+            "job": "Director"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 525,
+            "known_for_department": "Directing",
+            "name": "Кристофер Нолан",
+            "original_name": "Christopher Nolan",
+            "popularity": 9.1771,
+            "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+            "credit_id": "671e82155d0de89042d97484",
+            "department": "Writing",
+            "job": "Writer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 525,
+            "known_for_department": "Directing",
+            "name": "Кристофер Нолан",
+            "original_name": "Christopher Nolan",
+            "popularity": 9.1771,
+            "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg",
+            "credit_id": "671f2df59ff681d9e0a49013",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 556,
+            "known_for_department": "Production",
+            "name": "Эмма Томас",
+            "original_name": "Emma Thomas",
+            "popularity": 2.4616,
+            "profile_path": "/utc1PS6WVWR5tknzTJqXtnD0kBp.jpg",
+            "credit_id": "671f2e006d6b705dc871e468",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 928158,
+            "known_for_department": "Sound",
+            "name": "Людвиг Йоранссон",
+            "original_name": "Ludwig Göransson",
+            "popularity": 1.8963,
+            "profile_path": "/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg",
+            "credit_id": "6773987cfbe3722a98617ec2",
+            "department": "Sound",
+            "job": "Original Music Composer"
+          }
+        ]
+      },
+      {
+        "id": 1377237,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 64295,
+            "known_for_department": "Acting",
+            "name": "Алан Ритчсон",
+            "original_name": "Alan Ritchson",
+            "popularity": 20.8653,
+            "profile_path": "/92YNEEpCyugkTzPprJwZpvVtvuK.jpg",
+            "cast_id": 1,
+            "character": "Hank Malone",
+            "credit_id": "671c265527bd57d91f62acc3",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 887,
+            "known_for_department": "Acting",
+            "name": "Оуэн Уилсон",
+            "original_name": "Owen Wilson",
+            "popularity": 6.8311,
+            "profile_path": "/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg",
+            "cast_id": 3,
+            "character": "Ben Bishop",
+            "credit_id": "67a667be4dc052ba5585fcf6",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 17289,
+            "known_for_department": "Acting",
+            "name": "Родриго Санторо",
+            "original_name": "Rodrigo Santoro",
+            "popularity": 3.6562,
+            "profile_path": "/d3MaF9SPHDn2PMYHuqdnO0Csik6.jpg",
+            "cast_id": 13,
+            "character": "Damian Zaldivar",
+            "credit_id": "67ed97c8f5ae71435dab0a67",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1681867,
+            "known_for_department": "Acting",
+            "name": "Лейла Джордж",
+            "original_name": "Leila George",
+            "popularity": 3.7012,
+            "profile_path": "/s46DMiPDGSMq6qad5TL8mG5qfdy.jpg",
+            "cast_id": 14,
+            "character": "Kate Baker",
+            "credit_id": "67ed97d40d7121a9cc015230",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1331024,
+            "known_for_department": "Acting",
+            "name": "Кейт Бокс",
+            "original_name": "Kate Box",
+            "popularity": 2.1331,
+            "profile_path": "/zv4NckgNBn6Tc2xhCdNFFx9o9EZ.jpg",
+            "cast_id": 38,
+            "character": "Dr. Ainsley",
+            "credit_id": "6aa68c526f74f4935fc1763b",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 293911,
+            "known_for_department": "Directing",
+            "name": "Скотт Во",
+            "original_name": "Scott Waugh",
+            "popularity": 1.6,
+            "profile_path": "/zV7KwmANQ5rsd33laFRtF2mI7Qi.jpg",
+            "credit_id": "671cbca06e4210780f791dd5",
+            "department": "Directing",
+            "job": "Director"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 5232152,
+            "known_for_department": "Writing",
+            "name": "Томми Уайт",
+            "original_name": "Tommy White",
+            "popularity": 0.8691,
+            "profile_path": null,
+            "credit_id": "67a6681dc1e5ed8bfc85f34e",
+            "department": "Writing",
+            "job": "Writer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 5232154,
+            "known_for_department": "Writing",
+            "name": "Майлс Хабли",
+            "original_name": "Miles Hubley",
+            "popularity": 1.2269,
+            "profile_path": null,
+            "credit_id": "67a6682d937d2e9b6066dbe8",
+            "department": "Writing",
+            "job": "Writer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 11814,
+            "known_for_department": "Production",
+            "name": "Тодд Гарнер",
+            "original_name": "Todd Garner",
+            "popularity": 0.7434,
+            "profile_path": "/hRu3nTh08RLwPNFnWlSwE9uu2Pw.jpg",
+            "credit_id": "67a66881aca91da4ba85eccf",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 64295,
+            "known_for_department": "Acting",
+            "name": "Алан Ритчсон",
+            "original_name": "Alan Ritchson",
+            "popularity": 20.8653,
+            "profile_path": "/92YNEEpCyugkTzPprJwZpvVtvuK.jpg",
+            "credit_id": "67a6688a1fcbfee54d300ee1",
+            "department": "Production",
+            "job": "Producer"
+          }
+        ]
+      },
+      {
+        "id": 1204680,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 62831,
+            "known_for_department": "Acting",
+            "name": "Уилл Форте",
+            "original_name": "Will Forte",
+            "popularity": 3.9241,
+            "profile_path": "/4VEzbkL3HwHTUZAPA5PyypFG2U.jpg",
+            "cast_id": 2,
+            "character": "Kevin Avery",
+            "credit_id": "655290f5d4fe04011b8ff69a",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1452046,
+            "known_for_department": "Acting",
+            "name": "Лана Кондор",
+            "original_name": "Lana Condor",
+            "popularity": 3.7174,
+            "profile_path": "/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg",
+            "cast_id": 4,
+            "character": "Paige Avery",
+            "credit_id": "65529143ea84c710959c01fc",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 56446,
+            "known_for_department": "Acting",
+            "name": "Джон Сина",
+            "original_name": "John Cena",
+            "popularity": 6.9152,
+            "profile_path": "/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
+            "cast_id": 3,
+            "character": "Buddy Crane",
+            "credit_id": "655290fcd4fe04013980a767",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1120700,
+            "known_for_department": "Acting",
+            "name": "Тони Белл",
+            "original_name": "Tone Bell",
+            "popularity": 1.3724,
+            "profile_path": "/fB06Xj5FgwvHcZESsNGMupGBTyY.jpg",
+            "cast_id": 38,
+            "character": "Sal Maltese",
+            "credit_id": "67eab05aaf752a3b24f7289c",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 1,
+            "id": 1572541,
+            "known_for_department": "Acting",
+            "name": "Марта Келли",
+            "original_name": "Martha Kelly",
+            "popularity": 1.7594,
+            "profile_path": "/ac7HoARDIHdYNqpzgJBzpmKHXHR.jpg",
+            "cast_id": 42,
+            "character": "Dottie Jones",
+            "credit_id": "67ebc52451f6254f768beaae",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 66897,
+            "known_for_department": "Production",
+            "name": "Christopher DeFaria",
+            "original_name": "Christopher DeFaria",
+            "popularity": 0.9221,
+            "profile_path": "/e7sPWVvfV9UfVNPegDlcf1z73su.jpg",
+            "credit_id": "6552921ad4fe04013980a7b4",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 0,
+            "id": 1377461,
+            "known_for_department": "Editing",
+            "name": "Carsten Kurpanek",
+            "original_name": "Carsten Kurpanek",
+            "popularity": 0.4453,
+            "profile_path": null,
+            "credit_id": "6552927267b61345cf03f0d7",
+            "department": "Editing",
+            "job": "Editor"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1101410,
+            "known_for_department": "Directing",
+            "name": "Дэйв Грин",
+            "original_name": "Dave Green",
+            "popularity": 1.5159,
+            "profile_path": "/eRUCqrBpWNSr8893Fcf1A1Hsbog.jpg",
+            "credit_id": "65528e0f67b61345cf03ef9f",
+            "department": "Directing",
+            "job": "Director"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 19657,
+            "known_for_department": "Production",
+            "name": "Carsten H.W. Lorenz",
+            "original_name": "Carsten H.W. Lorenz",
+            "popularity": 0.7119,
+            "profile_path": "/nZmrzDkCdjv1SlGRY088Tym713L.jpg",
+            "credit_id": "65529248fb5299013a6f0d89",
+            "department": "Production",
+            "job": "Executive Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 15218,
+            "known_for_department": "Writing",
+            "name": "Джеймс Ганн",
+            "original_name": "James Gunn",
+            "popularity": 3.9856,
+            "profile_path": "/pnKqZub3IlKYbyH9RRTMDOoqEn0.jpg",
+            "credit_id": "65529221fd6fa101380b831a",
+            "department": "Production",
+            "job": "Producer"
+          }
+        ]
+      },
+      {
+        "id": 1228834,
+        "cast": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 69899,
+            "known_for_department": "Acting",
+            "name": "Закари Ливай",
+            "original_name": "Zachary Levi",
+            "popularity": 4.8447,
+            "profile_path": "/1W8L3kEMMPF9umT3ZGaNIiCYKfZ.jpg",
+            "cast_id": 1,
+            "character": "Tucker",
+            "credit_id": "659dbcb6fc5f060200a4e1e4",
+            "order": 0
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 3896,
+            "known_for_department": "Acting",
+            "name": "Лиам Нисон",
+            "original_name": "Liam Neeson",
+            "popularity": 8.8349,
+            "profile_path": "/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg",
+            "cast_id": 15,
+            "character": "Larry",
+            "credit_id": "66448354232243b4845842af",
+            "order": 1
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 51682,
+            "known_for_department": "Acting",
+            "name": "Уэс Чэтэм",
+            "original_name": "Wes Chatham",
+            "popularity": 2.7516,
+            "profile_path": "/lFoUyX8FZs3XvUWWItCm2ezvAEs.jpg",
+            "cast_id": 26,
+            "character": "Alex",
+            "credit_id": "69a41b389c477d77b7c4b55e",
+            "order": 2
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 39389,
+            "known_for_department": "Acting",
+            "name": "Титус Уэлливер",
+            "original_name": "Titus Welliver",
+            "popularity": 4.6084,
+            "profile_path": "/3hTwn7Maktr6ONq1VvfqyRacjiv.jpg",
+            "cast_id": 27,
+            "character": "James",
+            "credit_id": "69a41b43dadbcf2a0fa79dc2",
+            "order": 3
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 103330,
+            "known_for_department": "Acting",
+            "name": "Навид Негабан",
+            "original_name": "Navid Negahban",
+            "popularity": 2.3451,
+            "profile_path": "/pWi5tINf4mDvTYbNKZDJPODYKra.jpg",
+            "cast_id": 28,
+            "character": "Qasim",
+            "credit_id": "69a41b658e8037a15bc176ed",
+            "order": 4
+          }
+        ],
+        "crew": [
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 145612,
+            "known_for_department": "Writing",
+            "name": "Гай Моше",
+            "original_name": "Guy Moshe",
+            "popularity": 1.2747,
+            "profile_path": "/cihfkHFJyWxPi7irCNXVh8U7NCs.jpg",
+            "credit_id": "659dbcc391b53000ef1ea759",
+            "department": "Directing",
+            "job": "Director"
+          },
+          {
+            "adult": false,
+            "gender": 0,
+            "id": 4472963,
+            "known_for_department": "Production",
+            "name": "Wendy Hinton Sweetmore",
+            "original_name": "Wendy Hinton Sweetmore",
+            "popularity": 0.3959,
+            "profile_path": null,
+            "credit_id": "659dbd27d6590b025cb23a62",
+            "department": "Production",
+            "job": "Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 145612,
+            "known_for_department": "Writing",
+            "name": "Гай Моше",
+            "original_name": "Guy Moshe",
+            "popularity": 1.2747,
+            "profile_path": "/cihfkHFJyWxPi7irCNXVh8U7NCs.jpg",
+            "credit_id": "659dbd49eb64f10097cd4819",
+            "department": "Production",
+            "job": "Executive Producer"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 19689,
+            "known_for_department": "Production",
+            "name": "Paul Schnee",
+            "original_name": "Paul Schnee",
+            "popularity": 0.872,
+            "profile_path": null,
+            "credit_id": "659dbd926728a80201abc28a",
+            "department": "Production",
+            "job": "Casting"
+          },
+          {
+            "adult": false,
+            "gender": 2,
+            "id": 1319608,
+            "known_for_department": "Production",
+            "name": "Matthew G. Zamias",
+            "original_name": "Matthew G. Zamias",
+            "popularity": 0.5145,
+            "profile_path": null,
+            "credit_id": "659dbd3a1d78f201a5b9928f",
+            "department": "Production",
+            "job": "Producer"
+          }
+        ]
+      }
+  ]
+}
