@@ -1,0 +1,85 @@
+{
+  "adult": false,
+  "backdrop_path": "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
+  "belongs_to_collection": {
+    "id": 531241,
+    "name": "Человек-паук [КВМ] (Коллекция)",
+    "poster_path": "/f4xtew0yQRiH9K46LRD848z8R4f.jpg",
+    "backdrop_path": "/AvnqpRwlEaYNVL6wzC4RN94EdSd.jpg"
+  },
+  "budget": 225000000,
+  "genres": [
+    {
+      "id": 878,
+      "name": "фантастика"
+    },
+    {
+      "id": 28,
+      "name": "боевик"
+    },
+    {
+      "id": 12,
+      "name": "приключения"
+    }
+  ],
+  "homepage": "",
+  "id": 969681,
+  "imdb_id": "tt22084616",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Spider-Man: Brand New Day",
+  "overview": "Одинокий и повзрослевший Питер Паркер полностью посвящает себя борьбе с преступностью в Нью-Йорке, поскольку 4 года назад после заклинания Доктора Стрэнджа мир и все близкие забыли его. Но с ростом угроз и нагрузки на Человека-паука, его способности претерпевают странные изменения, способные поставить под угрозу его существование. Тем временем в городе случается новая цепочка преступлений, которая приводит к появлению одного из самых опасных противников в жизни Питера.",
+  "popularity": 719.5221,
+  "poster_path": "/pK8CH9JxrgX2ZIq3WclTwnX0cCL.jpg",
+  "production_companies": [
+    {
+      "id": 420,
+      "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+      "name": "Marvel Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 5,
+      "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+      "name": "Columbia Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 84041,
+      "logo_path": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+      "name": "Pascal Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 22213,
+      "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+      "name": "TSG Entertainment",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2026-07-29",
+  "revenue": 2505477000,
+  "runtime": 145,
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "«Начинается новый день»",
+  "title": "Человек-паук: Новый день",
+  "video": false,
+  "vote_average": 8.111,
+  "vote_count": 3586
+}
