@@ -15,35 +15,42 @@ struct MovieDetailView: View {
     @State private var detailViewModel = MovieDetailsViewModel()
     
     var body: some View {
-        VStack(alignment: .leading){
-            
-            Image(uiImage: movieInfo.backdropImage!)
-            
-            Text(movieInfo.movie.title)
-            
-            Divider()
-            
-            Text("Актеры")
-                .font(.title3)
-            
-            switch detailViewModel.state {
-            case .idle:
-                EmptyView()
-            case .loading:
-                ProgressView()
-            case .loaded(let movieScreenData):
-                ForEach(movieScreenData.cast) { actor in
-                    Text(actor.actorPersonData.name)
+        ScrollView {
+            VStack(alignment: .leading){
+                
+                MovieImageView(image: movieInfo.backdropImage!)
+                    .frame(height: 300)
+                    .containerRelativeFrame(.horizontal)
+
+                
+                VStack(alignment: .leading) {
+                    Text(movieInfo.movie.title)
+                    
+                    Divider()
+                    
+                    Text("Актеры")
+                        .font(.title3)
+                    
+                    switch detailViewModel.state {
+                    case .idle:
+                        EmptyView()
+                    case .loading:
+                        ProgressView()
+                    case .loaded(let movieScreenData):
+                        ForEach(movieScreenData.cast) { actor in
+                            Text(actor.actorPersonData.name)
+                        }
+                    case .error(let error):
+                        Text(error)
+                            .foregroundStyle(.primary)
+                    }
                 }
-            case .error(let error):
-                Text(error)
-                    .foregroundStyle(.primary)
+                .padding()
+                
             }
-            
-        }
-        .padding()
-        .task {
-            await detailViewModel.fetch(for: movieInfo)
+            .task {
+                await detailViewModel.fetch(for: movieInfo)
+            }
         }
     }
 }
