@@ -22,8 +22,8 @@ struct Movie: Codable, Identifiable, Equatable, Hashable {
     let title: String
     let description: String?
     let popularity: Double
-    let posterPath: String
-    let backdropPath: String
+    let posterPath: String?
+    let backdropPath: String?  
     let releaseDate: String?
     
     enum CodingKeys: String, CodingKey {
@@ -73,5 +73,29 @@ import Playgrounds
 //    }
 //    
 //    movies = movieMainInfo.flatMap { $0.contents }
+    
+//    let url = URL(string: "https://api.themoviedb.org/3/search/movie")!
+//    
+//    var components = URLComponents(url: url, resolvingAgainstBaseURL: true)!
+//    let queryItems: [URLQueryItem] = [
+//        URLQueryItem(name: "query", value: "Человек"),
+//        URLQueryItem(name: "language", value: "ru-RU"),
+//        URLQueryItem(name: "page", value: "1"),
+//    ]
+//    components.queryItems = components.queryItems.map { $0 + queryItems } ?? queryItems
+//    
+//    var request = URLRequest(url: components.url!)
+//    request.httpMethod = "GET"
+//    request.timeoutInterval = 10
+//    request.allHTTPHeaderFields = [
+//        "accept": "application/json",
+//        "Authorization": "Bearer ***REMOVED***"
+//    ]
+//    
+//    
+//    let (data, response) = try await URLSession.shared.data(for: request)
+//
+//    let result = try JSONDecoder().decode(MovieQueryPage.self, from: data)
+
 }
 

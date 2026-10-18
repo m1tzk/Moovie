@@ -10,6 +10,11 @@ import UIKit
 
 struct MockMovieService: APIMovieService {
     
+    func searchFilms(for searchLine: String) async throws -> [Movie] {
+        []
+    }
+    
+    
     private struct SampleData: Decodable {
         let movies: [Movie]
         

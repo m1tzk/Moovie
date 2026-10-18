@@ -15,15 +15,22 @@ struct MovieDetailView: View {
     @State private var detailViewModel = MovieDetailsViewModel()
     
     let favouritesViewModel: FavouritesViewModel
+
     
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                MovieImageView(image: movieInfo.backdropImage!)
-                    .frame(height: 300)
-                    .containerRelativeFrame(.horizontal)
+                Group {
+                    if let backdropImage = movieInfo.backdropImage {
+                        MovieImageView(image: backdropImage)
+                    } else {
+                        placeholderBackdropImage
+                    }
+                }
+                .frame(height: 300)
+                .containerRelativeFrame(.horizontal)
 
                 
                 VStack(alignment: .leading) {
@@ -54,11 +61,24 @@ struct MovieDetailView: View {
             .toolbar {
                 FavouriteButton(movieID: movieInfo.movie.id, favouritesViewModel: favouritesViewModel)
             }
+            .toolbarBackground(.hidden, for: .navigationBar)
             .task {
                 await detailViewModel.fetch(for: movieInfo)
             }
         }
+        .ignoresSafeArea(edges: .top)
     }
+    
+    private var placeholderBackdropImage: some View {
+        Rectangle()
+            .fill(Color.gray.opacity(0.2))
+            .overlay {
+                Image(systemName: "film.stack")
+                    .font(.largeTitle)
+                    .foregroundStyle(.secondary)
+            }
+    }
+    
 }
 
 

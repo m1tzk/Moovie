@@ -39,8 +39,14 @@ private struct FilmRow: View {
     
     var body: some View {
         HStack {
-            MovieImageView(image: movie.posterImage!)
-                .frame(width: 100, height: 150)
+            Group {
+                if let posterImage = movie.posterImage {
+                    MovieImageView(image: posterImage)
+                } else {
+                    placeholderPosterImage
+                }
+            }
+            .frame(width: 100, height: 150)
             
             HStack {
                 VStack(alignment: .leading){
@@ -65,7 +71,18 @@ private struct FilmRow: View {
             
         }
     }
+    
+    private var placeholderPosterImage: some View {
+        Rectangle()
+            .fill(Color.gray.opacity(0.2))
+            .overlay {
+                Image(systemName: "film")
+                    .font(.largeTitle)
+                    .foregroundStyle(.primary)
+            }
+    }
 }
+
 
 //#Preview {
 //    

@@ -11,14 +11,7 @@ import Observation
 @Observable
 class MovieDetailsViewModel {
     
-    enum State {
-        case idle
-        case loading
-        case loaded(MovieScreenData)
-        case error(String)
-    }
-    
-    var state: State = .idle
+    var state: LoadingState<MovieScreenData> = .idle
     
     private let service: APIMovieService
     

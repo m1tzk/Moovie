@@ -12,19 +12,12 @@ import Observation
 @Observable
 class MovieViewModel {
     
-    enum State {
-        case idle
-        case loading
-        case loaded([MovieMainData])
-        case error(String)
-    }
-    
-    var state: State = .idle
+    var state: LoadingState<[MovieMainData]> = .idle
     var mock: Bool
     
     private let service: APIMovieService
     
-    init(service: APIMovieService = ActualMovieService(), mock: Bool = true) {
+    init(service: APIMovieService = ActualMovieService(), mock: Bool = false) {
         self.service = service
         self.mock = mock
     }
@@ -135,8 +128,8 @@ class MovieViewModel {
     
     private func fetchMovieMainData(for movie: Movie, using configuration: ImageConfiguration) async throws -> MovieMainData {
         
-        let posterURL = configuration.baseURL + PosterSizes.originalRes.description + movie.posterPath
-        let backdropURL = configuration.baseURL + BackdropSizes.originalRes.description + movie.backdropPath
+        let posterURL = configuration.baseURL + PosterSizes.originalRes.description + (movie.posterPath ?? "")
+        let backdropURL = configuration.baseURL + BackdropSizes.originalRes.description + (movie.backdropPath ?? "")
         
         async let posterTask = loadImage(from: posterURL)
         async let backdropTask = loadImage(from: backdropURL)

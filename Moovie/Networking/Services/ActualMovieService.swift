@@ -9,6 +9,51 @@ import Foundation
 import UIKit
 
 struct ActualMovieService: APIMovieService {
+    
+    func searchFilms(for searchLine: String) async throws -> [Movie] {
+        
+        var partialArrayOfMovies: MovieQueryPage
+        
+        guard let url = URL(string: "https://api.themoviedb.org/3/search/movie") else {
+            throw APIError.invalidURL
+        }
+        
+        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)!
+        let queryItems: [URLQueryItem] = [
+            URLQueryItem(name: "query", value: "\(searchLine)"),
+            URLQueryItem(name: "language", value: "ru-RU"),
+            URLQueryItem(name: "page", value: "1"),
+        ]
+        components.queryItems = components.queryItems.map { $0 + queryItems } ?? queryItems
+        
+        var request = URLRequest(url: components.url!)
+        request.httpMethod = "GET"
+        request.timeoutInterval = 10
+        request.allHTTPHeaderFields = [
+            "accept": "application/json",
+            "Authorization": "Bearer ***REMOVED***"
+        ]
+        
+        do {
+            let (data, response) = try await URLSession.shared.data(for: request)
+            
+            guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+                throw APIError.invalidResponse
+            }
+            
+            partialArrayOfMovies = try JSONDecoder().decode(MovieQueryPage.self, from: data)
+            
+        } catch let error as DecodingError {
+            throw APIError.decodingError(error)
+        } catch let error as URLError {
+            throw APIError.networkError(error)
+        }
+        
+        let movies = partialArrayOfMovies.contents
+        return movies
+        
+    }
+    
     func fetchMovieMainInfo() async throws -> [Movie] {
         
         var partialArrayOfMovies: [MovieQueryPage] = []

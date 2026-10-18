@@ -34,7 +34,7 @@ struct ContentView: View {
             }
             
             Tab("Поиск", systemImage: "magnifyingglass", role: .search) {
-                SearchView()
+                SearchView(favouritesViewModel: favouritesViewModel)
             }
         }
         .task {

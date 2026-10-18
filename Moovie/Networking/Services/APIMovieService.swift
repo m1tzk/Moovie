@@ -15,6 +15,7 @@ protocol APIMovieService: Sendable {
     func fetchMovieCredits(for movie: Movie) async throws -> MovieCredits
     func fetchImageConfiguration() async throws -> ImageConfiguration
     func fetchImage(from URLString: String) async throws -> UIImage
+    func searchFilms(for searchLine: String) async throws -> [Movie]
     
 //    func fetchMovieDetails(for movies: [Movie]) async throws -> [MovieDetails]
 //    func fetchMovieCredits(for movies: [Movie]) async throws -> [MovieCredits]
