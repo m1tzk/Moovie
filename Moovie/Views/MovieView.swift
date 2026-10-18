@@ -34,9 +34,6 @@ struct MovieView: View {
             }
             .navigationTitle("Фильмы")
         }
-        .task {
-            await movieViewModel.fetch()
-        }
     }
 }
 
