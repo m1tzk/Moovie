@@ -10,10 +10,16 @@ import SwiftUI
 struct FavouritesView: View {
     
     let movieViewModel: MovieViewModel
+    let favouritesViewModel: FavouritesViewModel
     
     var movies: [MovieMainData] {
-        //
-        []
+        let favourites = favouritesViewModel.favouriteIDs
+        switch movieViewModel.state {
+        case .loaded(let movieInfo):
+            return movieInfo.filter { favourites.contains($0.id) }
+        default:
+            return []
+        }
     }
     
     var body: some View {
@@ -22,7 +28,10 @@ struct FavouritesView: View {
                 if movies.isEmpty {
                     ContentUnavailableView("Закладок пока не добавлено", systemImage: "heart")
                 } else {
-                    MovieListView(movies: movies)
+                    MovieListView(
+                        movies: movies,
+                        favouritesViewModel: favouritesViewModel
+                    )
                 }
             }
             .navigationTitle("Закладки")
@@ -31,5 +40,5 @@ struct FavouritesView: View {
 }
 
 #Preview {
-    FavouritesView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true))
+    FavouritesView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct MovieView: View {
     
     let movieViewModel: MovieViewModel
+    let favouritesViewModel: FavouritesViewModel
     
     var body: some View {
         NavigationStack {
@@ -22,7 +23,10 @@ struct MovieView: View {
                         Text("Идет загрузка...")
                     }
                 case .loaded(let movies):
-                    MovieListView(movies: movies)
+                    MovieListView(
+                        movies: movies,
+                        favouritesViewModel: favouritesViewModel
+                    )
                 case .error(let error):
                     Text(error)
                         .foregroundStyle(.primary)
@@ -37,5 +41,5 @@ struct MovieView: View {
 }
 
 #Preview {
-    MovieView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true))
+    MovieView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
 }

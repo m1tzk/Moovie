@@ -11,14 +11,22 @@ struct ContentView: View {
     
     @State private var movieViewModel: MovieViewModel = MovieViewModel(service: MockMovieService(), mock: true)
     
+    @State private var favouritesViewModel = FavouritesViewModel()
+    
     var body: some View {
         TabView {
             Tab("Фильмы", systemImage: "movieclapper") {
-                MovieView(movieViewModel: movieViewModel)
+                MovieView(
+                    movieViewModel: movieViewModel,
+                    favouritesViewModel: favouritesViewModel
+                )
             }
             
             Tab("Закладки", systemImage: "heart") {
-                FavouritesView(movieViewModel: movieViewModel)
+                FavouritesView(
+                    movieViewModel: movieViewModel,
+                    favouritesViewModel: favouritesViewModel
+                )
             }
             
             Tab("Настройки", systemImage: "gear") {
@@ -28,6 +36,10 @@ struct ContentView: View {
             Tab("Поиск", systemImage: "magnifyingglass", role: .search) {
                 SearchView()
             }
+        }
+        .task {
+            favouritesViewModel.load()
+            await movieViewModel.fetch()
         }
     }
 }

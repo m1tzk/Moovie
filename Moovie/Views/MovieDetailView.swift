@@ -14,9 +14,12 @@ struct MovieDetailView: View {
     
     @State private var detailViewModel = MovieDetailsViewModel()
     
+    let favouritesViewModel: FavouritesViewModel
+    
+    
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading){
+            VStack(alignment: .leading) {
                 
                 MovieImageView(image: movieInfo.backdropImage!)
                     .frame(height: 300)
@@ -48,6 +51,9 @@ struct MovieDetailView: View {
                 .padding()
                 
             }
+            .toolbar {
+                FavouriteButton(movieID: movieInfo.movie.id, favouritesViewModel: favouritesViewModel)
+            }
             .task {
                 await detailViewModel.fetch(for: movieInfo)
             }
@@ -55,6 +61,10 @@ struct MovieDetailView: View {
     }
 }
 
+
+
 #Preview {
-    MovieDetailView(movieInfo: MovieMainData.example)
+    NavigationStack {
+        MovieDetailView(movieInfo: MovieMainData.example, favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
+    }
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol FavouriteStorage {
+    func load() -> Set<Int>
+    func save(for favouriteIDs: Set<Int>)
+}

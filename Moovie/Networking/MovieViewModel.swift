@@ -133,7 +133,7 @@ class MovieViewModel {
         }
     }
     
-    func fetchMovieMainData(for movie: Movie, using configuration: ImageConfiguration) async throws -> MovieMainData {
+    private func fetchMovieMainData(for movie: Movie, using configuration: ImageConfiguration) async throws -> MovieMainData {
         
         let posterURL = configuration.baseURL + PosterSizes.originalRes.description + movie.posterPath
         let backdropURL = configuration.baseURL + BackdropSizes.originalRes.description + movie.backdropPath
@@ -154,7 +154,7 @@ class MovieViewModel {
         
     }
     
-    func loadImage(from URLString: String?) async -> UIImage? {
+    private func loadImage(from URLString: String?) async -> UIImage? {
         guard let URLString = URLString, !URLString.isEmpty else {
             return nil
         }
@@ -164,6 +164,13 @@ class MovieViewModel {
         } catch {
             return nil
         }
+    }
+    
+    //MARK: Preview
+    
+    static var example: MovieViewModel {
+        let vm = MovieViewModel(service: MockMovieService(), mock: true)
+        return vm
     }
 }
 

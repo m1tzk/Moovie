@@ -49,7 +49,7 @@ class MovieDetailsViewModel {
         }
     }
     
-    func fetchMovieScreenData(with movieInfo: MovieMainData, using configuration: ImageConfiguration) async throws -> MovieScreenData {
+    private func fetchMovieScreenData(with movieInfo: MovieMainData, using configuration: ImageConfiguration) async throws -> MovieScreenData {
         
         // параллельные запросы для credits и details
         async let detailsTask = service.fetchMovieDetails(for: movieInfo.movie)
@@ -84,7 +84,7 @@ class MovieDetailsViewModel {
         
     }
     
-    func loadImage(from URLString: String?) async -> UIImage? {
+    private func loadImage(from URLString: String?) async -> UIImage? {
         guard let URLString = URLString, !URLString.isEmpty else {
             return nil
         }
@@ -96,7 +96,7 @@ class MovieDetailsViewModel {
         }
     }
     
-    func fetchCastImages(for cast: [MovieCast], using configuration: ImageConfiguration) async -> [CastPersonData] {
+    private func fetchCastImages(for cast: [MovieCast], using configuration: ImageConfiguration) async -> [CastPersonData] {
         
         await withTaskGroup(of: (Int, CastPersonData).self) { group in
             for (index, castPerson) in cast.enumerated() {
@@ -135,7 +135,7 @@ class MovieDetailsViewModel {
         }
     }
     
-    func fetchCrewImages(for crew: [MovieCrew], using configuration: ImageConfiguration) async -> [CrewPersonData] {
+    private func fetchCrewImages(for crew: [MovieCrew], using configuration: ImageConfiguration) async -> [CrewPersonData] {
         
         await withTaskGroup(of: (Int, CrewPersonData).self) { group in
             for (index, crewPerson) in crew.enumerated() {

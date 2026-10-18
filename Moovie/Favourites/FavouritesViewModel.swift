@@ -6,13 +6,38 @@
 //
 
 import SwiftUI
+import Observation
 
-struct FavouritesViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@Observable
+class FavouritesViewModel {
+    
+    private(set) var favouriteIDs: Set<Int> = []
+    
+    private let service: FavouriteStorage
+    
+    init(service: FavouriteStorage = ActualFavouriteStorage()) {
+        self.service = service
     }
-}
-
-#Preview {
-    FavouritesViewModel()
+    
+    func load() {
+        favouriteIDs = service.load()
+    }
+    
+    private func save() {
+        service.save(for: favouriteIDs)
+    }
+   
+    func toggleFavourite(movieID: Int) {
+        if favouriteIDs.contains(movieID) {
+            favouriteIDs.remove(movieID)
+        } else {
+            favouriteIDs.insert(movieID)
+        }
+        
+        save()
+    }
+    
+    func isFavourite(movieID: Int) -> Bool {
+        favouriteIDs.contains(movieID)
+    }
 }
