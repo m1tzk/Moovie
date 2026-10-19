@@ -18,7 +18,7 @@ struct SearchView: View {
             VStack {
                 switch searchViewModel.state {
                 case .idle:
-                    Text("Здесь будут отражены результаты вашего поиска")
+                    ContentUnavailableView("Результатов нет, попробуйте ввести запрос", systemImage: "magnifyingglass")
                 case .loading:
                     ProgressView() {
                         Text("Осуществляется поиск")

@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ProfilePictureView: View {
+    
+    let profilePic: UIImage
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(uiImage: profilePic)
+            .resizable()
+            .scaledToFill()
+            .frame(width: 120, height: 120)
+            .clipShape(Circle())
     }
 }
 
-#Preview {
-    ProfilePictureView()
-}
+//#Preview {
+//    ProfilePictureView()
+//}
+
+

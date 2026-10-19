@@ -20,6 +20,7 @@ struct MovieQueryPage: Codable, Identifiable, Equatable {
 struct Movie: Codable, Identifiable, Equatable, Hashable {
     let id: Int
     let title: String
+    let originalTitle: String
     let description: String?
     let popularity: Double
     let posterPath: String?
@@ -30,6 +31,7 @@ struct Movie: Codable, Identifiable, Equatable, Hashable {
         case id, title, popularity
         
         case description = "overview"
+        case originalTitle = "original_title"
         case posterPath = "poster_path"
         case backdropPath = "backdrop_path"
         case releaseDate = "release_date"

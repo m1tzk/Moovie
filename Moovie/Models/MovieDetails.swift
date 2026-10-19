@@ -8,17 +8,17 @@ import Foundation
 
 struct MovieDetails: Codable, Identifiable, Equatable {
     let id: Int
-    let isAdult: Bool
-    let budget: Int
-    let countries: [String]
+    let isAdult: Bool?
+    let budget: Int?
+    let countries: [String]?
     let releaseDate: String?
-    let revenue: Int
+    let revenue: Int?
     let runtime: Int?
-    let status: String
-    let voteAvgRating: Double
-    let voteCount: Int
-    let posterPath: String
-    let backdropPath: String
+    let status: String?
+    let voteAvgRating: Double?
+    let voteCount: Int?
+    let posterPath: String?
+    let backdropPath: String?
     
     enum CodingKeys: String, CodingKey {
         case id, budget, revenue, runtime, status
@@ -46,7 +46,7 @@ struct MovieCast: Codable, Equatable {
     let gender: Int
     let name: String
     let nativeName: String
-    let role: String
+    let role: String?
     let profilePicturePath: String?
     
     enum CodingKeys: String, CodingKey {
@@ -71,7 +71,7 @@ struct MovieCrew: Codable, Equatable {
     let gender: Int
     let name: String
     let nativeName: String
-    let job: String
+    let job: String?
     let profilePicturePath: String?
     
     enum CodingKeys: String, CodingKey {

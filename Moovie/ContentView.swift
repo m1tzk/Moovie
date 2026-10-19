@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var movieViewModel: MovieViewModel = MovieViewModel(service: MockMovieService(), mock: true)
+    @State private var movieViewModel: MovieViewModel = MovieViewModel(service: ActualMovieService(), mock: false)
     
     @State private var favouritesViewModel = FavouritesViewModel()
     
@@ -28,11 +28,7 @@ struct ContentView: View {
                     favouritesViewModel: favouritesViewModel
                 )
             }
-            
-            Tab("Настройки", systemImage: "gear") {
-                SettingView()
-            }
-            
+
             Tab("Поиск", systemImage: "magnifyingglass", role: .search) {
                 SearchView(favouritesViewModel: favouritesViewModel)
             }
