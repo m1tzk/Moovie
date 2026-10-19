@@ -18,19 +18,23 @@ struct ContentView: View {
             Tab("Фильмы", systemImage: "movieclapper") {
                 MovieView(
                     movieViewModel: movieViewModel,
-                    favouritesViewModel: favouritesViewModel
+                    favouritesViewModel: favouritesViewModel,
+                    showFavouriteButton: true
                 )
             }
             
             Tab("Закладки", systemImage: "heart") {
                 FavouritesView(
                     movieViewModel: movieViewModel,
-                    favouritesViewModel: favouritesViewModel
+                    favouritesViewModel: favouritesViewModel,
+                    showFavouriteButton: true
                 )
             }
 
             Tab("Поиск", systemImage: "magnifyingglass", role: .search) {
-                SearchView(favouritesViewModel: favouritesViewModel)
+                SearchView(favouritesViewModel: favouritesViewModel,
+                           showFavouriteButton: false
+                )
             }
         }
         .task {

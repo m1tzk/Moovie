@@ -12,12 +12,16 @@ struct MovieListView: View {
     
     var movies: [MovieMainData]
     let favouritesViewModel: FavouritesViewModel
+    let showFavouriteButton: Bool
     
     var body: some View {
         
         List(movies) { movie in
             NavigationLink(value: movie) {
-                FilmRow(movie: movie, favouritesViewModel: favouritesViewModel)
+                FilmRow(movie: movie,
+                        favouritesViewModel: favouritesViewModel,
+                        showFavouriteButton: showFavouriteButton
+                )
             }
             .listRowSeparator(.hidden)
             
@@ -26,7 +30,8 @@ struct MovieListView: View {
         .navigationDestination(for: MovieMainData.self) { movie in
             MovieDetailView(
                 movieInfo: movie,
-                favouritesViewModel: favouritesViewModel
+                favouritesViewModel: favouritesViewModel,
+                showFavouriteButton: showFavouriteButton
             )
         }
     }
@@ -36,6 +41,7 @@ private struct FilmRow: View {
     
     let movie: MovieMainData
     let favouritesViewModel: FavouritesViewModel
+    let showFavouriteButton: Bool
     
     var body: some View {
         HStack {
@@ -64,7 +70,11 @@ private struct FilmRow: View {
                 
                 Spacer()
                 
-                FavouriteButton(movieID: movie.movie.id, favouritesViewModel: favouritesViewModel)
+                FavouriteButton(
+                    movieID: movie.movie.id,
+                    favouritesViewModel: favouritesViewModel,
+                    showFavouriteButton: showFavouriteButton
+                )
                 .buttonStyle(.borderless)
                 .controlSize(.extraLarge)
             }

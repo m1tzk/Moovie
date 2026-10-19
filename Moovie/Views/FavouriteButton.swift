@@ -18,13 +18,17 @@ struct FavouriteButton: View {
         favouritesViewModel.isFavourite(movieID: movieID)
     }
     
+    let showFavouriteButton: Bool
+    
     var body: some View {
         
-        Button {
-            favouritesViewModel.toggleFavourite(movieID: movieID)
-        } label: {
-            Image(systemName: isFavourite ? "heart.fill" : "heart")
-                .foregroundStyle(isFavourite ? Color.red : Color.gray)
+        if showFavouriteButton {
+            Button {
+                favouritesViewModel.toggleFavourite(movieID: movieID)
+            } label: {
+                Image(systemName: isFavourite ? "heart.fill" : "heart")
+                    .foregroundStyle(isFavourite ? Color.red : Color.gray)
+            }
         }
     }
 }

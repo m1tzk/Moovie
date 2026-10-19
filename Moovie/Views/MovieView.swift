@@ -11,6 +11,7 @@ struct MovieView: View {
     
     let movieViewModel: MovieViewModel
     let favouritesViewModel: FavouritesViewModel
+    let showFavouriteButton: Bool
     
     var body: some View {
         NavigationStack {
@@ -25,7 +26,8 @@ struct MovieView: View {
                 case .loaded(let movies):
                     MovieListView(
                         movies: movies,
-                        favouritesViewModel: favouritesViewModel
+                        favouritesViewModel: favouritesViewModel,
+                        showFavouriteButton: showFavouriteButton
                     )
                 case .error(let error):
                     Text(error)
@@ -37,6 +39,6 @@ struct MovieView: View {
     }
 }
 
-#Preview {
-    MovieView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
-}
+//#Preview {
+//    MovieView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
+//}

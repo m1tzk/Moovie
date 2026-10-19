@@ -16,6 +16,8 @@ struct MovieDetailView: View {
     
     let favouritesViewModel: FavouritesViewModel
     
+    let showFavouriteButton: Bool
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -183,7 +185,10 @@ struct MovieDetailView: View {
                 
             }
             .toolbar {
-                FavouriteButton(movieID: movieInfo.movie.id, favouritesViewModel: favouritesViewModel)
+                FavouriteButton(movieID: movieInfo.movie.id,
+                                favouritesViewModel: favouritesViewModel,
+                                showFavouriteButton: showFavouriteButton
+                )
             }
             .toolbarBackground(.hidden, for: .navigationBar)
             .task {

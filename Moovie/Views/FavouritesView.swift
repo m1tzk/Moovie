@@ -11,6 +11,7 @@ struct FavouritesView: View {
     
     let movieViewModel: MovieViewModel
     let favouritesViewModel: FavouritesViewModel
+    let showFavouriteButton: Bool
     
     var movies: [MovieMainData] {
         let favourites = favouritesViewModel.favouriteIDs
@@ -30,7 +31,8 @@ struct FavouritesView: View {
                 } else {
                     MovieListView(
                         movies: movies,
-                        favouritesViewModel: favouritesViewModel
+                        favouritesViewModel: favouritesViewModel,
+                        showFavouriteButton: showFavouriteButton
                     )
                 }
             }
@@ -39,6 +41,6 @@ struct FavouritesView: View {
     }
 }
 
-#Preview {
-    FavouritesView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
-}
+//#Preview {
+//    FavouritesView(movieViewModel: MovieViewModel(service: MockMovieService(), mock: true), favouritesViewModel: FavouritesViewModel(service: MockFavouriteStorage()))
+//}
