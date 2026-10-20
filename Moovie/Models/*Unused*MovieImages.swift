@@ -48,28 +48,28 @@ struct MoviePostersData: Codable, Identifiable, Equatable {
 }
 
 
-import Playgrounds
-#Playground {
-    if let url = URL(string: "https://api.themoviedb.org/3/movie/969681/images") {
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        request.timeoutInterval = 10
-        request.allHTTPHeaderFields = [
-            "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
-        ]
-        
-        do {
-            let (data, response) = try await URLSession.shared.data(for: request)
-            
-            let movieImagesDataContainer = try JSONDecoder().decode(MovieImagesDataContainer.self, from: data)
-            
-            let movieBackdrops = Array(movieImagesDataContainer.backdrops ?? []).prefix(10)
-            
-            let posters = Array(movieImagesDataContainer.posters ?? []).prefix(20)
-            
-        } catch {
-            print(error)
-        }
-    }
-}
+//import Playgrounds
+//#Playground {
+//    if let url = URL(string: "https://api.themoviedb.org/3/movie/969681/images") {
+//        var request = URLRequest(url: url)
+//        request.httpMethod = "GET"
+//        request.timeoutInterval = 10
+//        request.allHTTPHeaderFields = [
+//            "accept": "application/json",
+//            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
+//        ]
+//        
+//        do {
+//            let (data, response) = try await URLSession.shared.data(for: request)
+//            
+//            let movieImagesDataContainer = try JSONDecoder().decode(MovieImagesDataContainer.self, from: data)
+//            
+//            let movieBackdrops = Array(movieImagesDataContainer.backdrops ?? []).prefix(10)
+//            
+//            let posters = Array(movieImagesDataContainer.posters ?? []).prefix(20)
+//            
+//        } catch {
+//            print(error)
+//        }
+//    }
+//}

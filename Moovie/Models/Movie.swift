@@ -42,8 +42,8 @@ struct Movie: Codable, Identifiable, Equatable, Hashable {
 //var movieMainInfo: [MovieQueryPage] = []
 //var movies: [Movie] = []
 
-import Playgrounds
-#Playground {
+//import Playgrounds
+//#Playground {
     
 //    for _ in 0...10 {
 //        if let url = URL(string: "https://api.themoviedb.org/3/discover/movie") {
@@ -60,7 +60,7 @@ import Playgrounds
 //            request.timeoutInterval = 10
 //            request.allHTTPHeaderFields = [
 //                "accept": "application/json",
-//                "Authorization": "Bearer ***REMOVED***"
+//                "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //            ]
 //            
 //            do {
@@ -91,7 +91,7 @@ import Playgrounds
 //    request.timeoutInterval = 10
 //    request.allHTTPHeaderFields = [
 //        "accept": "application/json",
-//        "Authorization": "Bearer ***REMOVED***"
+//        "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //    ]
 //    
 //    
@@ -99,5 +99,5 @@ import Playgrounds
 //
 //    let result = try JSONDecoder().decode(MovieQueryPage.self, from: data)
 
-}
+//}
 

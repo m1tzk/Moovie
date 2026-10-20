@@ -30,6 +30,10 @@
 		0D94DB423083E09500A90769 /* ActualFavouriteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94DB413083E08E00A90769 /* ActualFavouriteStorage.swift */; };
 		0D94DB443083E1B300A90769 /* *Partially implemented*MockFavouriteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94DB433083E1B300A90769 /* *Partially implemented*MockFavouriteStorage.swift */; };
 		0D94DB463083FBDB00A90769 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94DB453083FBDB00A90769 /* FavouriteButton.swift */; };
+		0D9DBDAA30878FB800960413 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DBDA930878FA800960413 /* Secrets.xcconfig */; };
+		0D9DBDAC30878FCB00960413 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DBDAB30878FC000960413 /* .gitignore */; };
+		0D9DBDB1308793E300960413 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DBDB0308793E300960413 /* APIConfiguration.swift */; };
+		0D9DBDB33087986800960413 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DBDB23087986200960413 /* Config.xcconfig */; };
 		0DD2F4D73084F5C900FBC3D9 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2F4D63084F5C900FBC3D9 /* SearchViewModel.swift */; };
 		0DD2F4D93084F61F00FBC3D9 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2F4D83084F61F00FBC3D9 /* LoadingState.swift */; };
 		0DD5FF6C307BFF12005E4104 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5FF6B307BFF12005E4104 /* APIError.swift */; };
@@ -85,6 +89,11 @@
 		0D94DB413083E08E00A90769 /* ActualFavouriteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualFavouriteStorage.swift; sourceTree = "<group>"; };
 		0D94DB433083E1B300A90769 /* *Partially implemented*MockFavouriteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "*Partially implemented*MockFavouriteStorage.swift"; sourceTree = "<group>"; };
 		0D94DB453083FBDB00A90769 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
+		0D9DBDA930878FA800960413 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		0D9DBDAB30878FC000960413 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0D9DBDAF3087936500960413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D9DBDB0308793E300960413 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		0D9DBDB23087986200960413 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		0DD2F4D63084F5C900FBC3D9 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		0DD2F4D83084F61F00FBC3D9 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		0DD5FF6B307BFF12005E4104 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
@@ -131,6 +140,9 @@
 		0D05223B3073D1C100321283 = {
 			isa = PBXGroup;
 			children = (
+				0D9DBDB23087986200960413 /* Config.xcconfig */,
+				0D9DBDAB30878FC000960413 /* .gitignore */,
+				0D9DBDA930878FA800960413 /* Secrets.xcconfig */,
 				0D05226F3073D1E600321283 /* Moovie */,
 				0D0522543073D1C200321283 /* MoovieTests */,
 				0D05225E3073D1C200321283 /* MoovieUITests */,
@@ -151,6 +163,7 @@
 		0D05226F3073D1E600321283 /* Moovie */ = {
 			isa = PBXGroup;
 			children = (
+				0D9DBDAF3087936500960413 /* Info.plist */,
 				0D94DB3B3083DC6E00A90769 /* Favourites */,
 				0D52979030750D3A00B2AB83 /* Networking */,
 				0D52978D30750CF500B2AB83 /* Views */,
@@ -210,6 +223,7 @@
 				0DD5FF6D307C0057005E4104 /* MovieDetailsViewModel.swift */,
 				0DD2F4D63084F5C900FBC3D9 /* SearchViewModel.swift */,
 				0DD2F4D83084F61F00FBC3D9 /* LoadingState.swift */,
+				0D9DBDB0308793E300960413 /* APIConfiguration.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -360,6 +374,9 @@
 		0D05224F3073D1C200321283 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				0D9DBDAC30878FCB00960413 /* .gitignore in Resources */,
+				0D9DBDB33087986800960413 /* Config.xcconfig in Resources */,
+				0D9DBDAA30878FB800960413 /* Secrets.xcconfig in Resources */,
 			);
 		};
 		0D0522593073D1C200321283 /* Resources */ = {
@@ -388,6 +405,7 @@
 				0D0522723073D1E600321283 /* MoovieApp.swift in Sources */,
 				0D5297973075431F00B2AB83 /* APIMovieService.swift in Sources */,
 				0D0522783073D3A500321283 /* Movie.swift in Sources */,
+				0D9DBDB1308793E300960413 /* APIConfiguration.swift in Sources */,
 				0D05227A3073D5D500321283 /* MovieDetails.swift in Sources */,
 				0D575F3F307A954600D27DD1 /* DataConfiguration.swift in Sources */,
 				0D52979230750D5000B2AB83 /* MovieViewModel.swift in Sources */,
@@ -552,6 +570,7 @@
 		};
 		0D0522643073D1C200321283 /* Debug configuration for PBXNativeTarget "Moovie" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9DBDB23087986200960413 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,6 +579,7 @@
 				DEVELOPMENT_TEAM = GP53DK2834;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,6 +605,7 @@
 		};
 		0D0522653073D1C200321283 /* Release configuration for PBXNativeTarget "Moovie" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9DBDB23087986200960413 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -593,6 +614,7 @@
 				DEVELOPMENT_TEAM = GP53DK2834;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

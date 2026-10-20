@@ -31,7 +31,7 @@ struct ActualMovieService: APIMovieService {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
+            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
         ]
         
         do {
@@ -78,7 +78,7 @@ struct ActualMovieService: APIMovieService {
             request.timeoutInterval = 10
             request.allHTTPHeaderFields = [
                 "accept": "application/json",
-                "Authorization": "Bearer ***REMOVED***"
+                "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
             ]
             
             do {
@@ -120,7 +120,7 @@ struct ActualMovieService: APIMovieService {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
+            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
         ]
         
         do {
@@ -157,7 +157,7 @@ struct ActualMovieService: APIMovieService {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
+            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
         ]
         
         do {
@@ -192,7 +192,7 @@ struct ActualMovieService: APIMovieService {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
+            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
         ]
         
         do {
@@ -266,7 +266,7 @@ struct ActualMovieService: APIMovieService {
 //            request.timeoutInterval = 10
 //            request.allHTTPHeaderFields = [
 //                "accept": "application/json",
-//                "Authorization": "Bearer ***REMOVED***"
+//                "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //            ]
 //
 //            do {
@@ -300,7 +300,7 @@ struct ActualMovieService: APIMovieService {
 //            request.timeoutInterval = 10
 //            request.allHTTPHeaderFields = [
 //                "accept": "application/json",
-//                "Authorization": "Bearer ***REMOVED***"
+//                "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //            ]
 //            
 //            do {
@@ -346,7 +346,7 @@ struct ActualMovieService: APIMovieService {
 //            request.timeoutInterval = 10
 //            request.allHTTPHeaderFields = [
 //                "accept": "application/json",
-//                "Authorization": "Bearer ***REMOVED***"
+//                "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //            ]
 //            
 //            do {

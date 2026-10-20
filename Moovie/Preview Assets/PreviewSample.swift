@@ -25,7 +25,7 @@ import Foundation
 //    request.timeoutInterval = 10
 //    request.allHTTPHeaderFields = [
 //        "accept": "application/json",
-//        "Authorization": "Bearer ***REMOVED***"
+//        "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
 //    ]
 //    
 //    do {

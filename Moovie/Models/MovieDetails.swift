@@ -90,33 +90,33 @@ struct MovieCrew: Codable, Equatable {
 }
 
 
-
-import Playgrounds
-
-#Playground {
-    if let url = URL(string: "https://api.themoviedb.org/3/movie/\(969681)") {
-        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)!
-        let queryItems: [URLQueryItem] = [
-            URLQueryItem(name: "language", value: "ru-RU"),
-        ]
-        components.queryItems = components.queryItems.map { $0 + queryItems } ?? queryItems
-        
-        var request = URLRequest(url: components.url!)
-        request.httpMethod = "GET"
-        request.timeoutInterval = 10
-        request.allHTTPHeaderFields = [
-            "accept": "application/json",
-            "Authorization": "Bearer ***REMOVED***"
-        ]
-        
-        do {
-            let (data, response) = try await URLSession.shared.data(for: request)
-            
-            let currentMovieDetails = try JSONDecoder().decode(MovieDetails.self, from: data)
-        } catch {
-            print(error)
-        }
-    }
-    
-    
-}
+//
+//import Playgrounds
+//
+//#Playground {
+//    if let url = URL(string: "https://api.themoviedb.org/3/movie/\(969681)") {
+//        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)!
+//        let queryItems: [URLQueryItem] = [
+//            URLQueryItem(name: "language", value: "ru-RU"),
+//        ]
+//        components.queryItems = components.queryItems.map { $0 + queryItems } ?? queryItems
+//        
+//        var request = URLRequest(url: components.url!)
+//        request.httpMethod = "GET"
+//        request.timeoutInterval = 10
+//        request.allHTTPHeaderFields = [
+//            "accept": "application/json",
+//            "Authorization": "Bearer \(APIConfiguration.tmdbAPIKey)"
+//        ]
+//        
+//        do {
+//            let (data, response) = try await URLSession.shared.data(for: request)
+//            
+//            let currentMovieDetails = try JSONDecoder().decode(MovieDetails.self, from: data)
+//        } catch {
+//            print(error)
+//        }
+//    }
+//    
+//    
+//}

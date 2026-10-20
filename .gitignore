@@ -1,0 +1,10 @@
+# Secrets
+Secrets.xcconfig
+
+# Xcode user-specific files
+*.xcuserstate
+xcuserdata/
+
+# Build artifacts
+DerivedData/
+.build/

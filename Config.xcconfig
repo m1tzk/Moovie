@@ -1,0 +1,7 @@
+//
+//  Config.xcconfig
+//  Moovie
+//
+//  Created by Ермолицкий Иван on 20/10/2026.
+//
+#include? "Secrets.xcconfig"
